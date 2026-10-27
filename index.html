@@ -9,22 +9,14 @@
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
         body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
         .logo-container {
-            width: 48px;
             height: 48px;
-            overflow: hidden;
-            border-radius: 50%;
             display: flex;
             align-items: center;
-            justify-content: center;
-            background-color: white;
         }
         .logo-container img {
-            height: 48px;
+            height: 100%;
             width: auto;
-            max-width: none;
-            object-fit: cover;
-            object-position: left center;
-            transform: scale(2.2) translateX(10%);
+            object-fit: contain;
         }
         .bg-navy { background-color: #0B2545; }
         .text-navy { color: #0B2545; }
